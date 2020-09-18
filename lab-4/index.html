@@ -1,7 +1,170 @@
 <!DOCKTYPE html>
 <html>
-<head><title></title>
+<head><title>REGISTRATION FORM</title>
+  <style>
+.div1 {
+  border: 2px outset black ;
+   background-color:#f2e5ff; 
+  padding: 10px;
+  margin:auto;
+}
+.div2{
+   padding: 10px;
+  background-color:	#f2e5ff; 
+   border: 2px outset black ;
+  margin:auto;
+}
+.div3{
+   padding: 10px;
+  background-color:		#f2e5ff; 
+   border: 2px outset black ;
+  margin:auto;
+}
+.div4{
+   padding: 10px;
+  background-color:		#f2e5ff; 
+   border: 2px outset black ;
+  margin:auto;
+}
+h2{
+	font-style: italic;
+		color:#006666;
+}
+body
+{ background-color:	#e5f2ff	;
+}
+table{
+	color: #b30000;
+}
+legend{
+	font-style: italic;
+	color: #006666;
+}
+
+  </style>
 </head>
 <body>
+<form>
+		<h1 align="center">Registration Form</h1>
+		<legend align="center"><b>Basic details</b></legend>
+				
+				
+  <div class="div1">
+   <table>
+  
+   <tr>
+   <td>Form Number</td>
+   <td><input class="inputClass"
+            name="input" > </td>
+			</tr>
+   <tr><td>Name</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>
+   <tr><td>Roll Number</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>
+   <tr><td>Gender</td>
+   <td><select name="genders" id="genders">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Prefer not to say">Prefer not to say</option>
+</select></td>
+</tr>
+   <tr><td><label for="birthday">DOB</label></td>
+  <td><input type="date" id="DOB" name="DOB"></td></tr>
+   <tr><td>PWD</td>
+   <td><input type="radio" id="yes" >
+  <label for="male">Yes</label><input type="radio" id="No" >
+  <label for="male">No</label><br></td></tr>
+   <tr><td>Category</td>
+     
+   <td><select name="category" id="category">
+  <option value="General">General</option>
+  <option value="OBC">OBC</option>
+  <option value="SC/ST">SC/ST</option>
+  <option value="EWS">EWS</option>
+</select></td>
+</tr>
+   <tr><td>Address</td>
+  
+			 <td><textarea rows="5" cols="50" maxlength="10"></textarea></td></tr>
+                <br>
+  </table>
+  </div>
+  <legend align="center"><b>Academic Information</b></legend>
+  <div class="div2">
+  <table>
+   <tr>
+   <td>Course</td>
+   <td><select name="courses" id="courses">
+  <option value="btech">B.Tech</option>
+  <option value="Barch">B.Arch</option>
+  <option value="Imsc">IMSC</option>
+   <option value="Imsc">M.Tech</option>
+    <option value="Imsc">Phd</option>
+</select> </td>
+			</tr>
+	
+   <tr><td>Branch</td>
+   <td><input class="inputClass"
+            name="input" ></td></tr>
+   <tr><td>Semester</td>
+   <td><input class="inputClass"
+            name="input" >( For which Allotment will be done) </td></tr>
+   <tr><td></td>
+  
+<tr><td>All India Rank</td>
+   <td><input class="inputClass"
+            name="input" > (In JEE main/GATE)</td></tr>
+<tr><td>Category Rank</td>
+   <td><input class="inputClass"
+            name="input" > (In JEE main/GATE)</td></tr>
+			<tr><td>CGPA</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>
+  
+   <tr><td>BackLog</td>
+   <td><input type="radio" id="yes" >
+  <label for="male">Yes</label><input type="radio" id="No" >
+  <label for="male">No</label><br></td></tr>
+    <tr><td>Hostel Accomodation</td>
+   <td><input type="radio" id="yes" >
+  <label for="male">Yes</label><input type="radio" id="No" >
+  <label for="male">No</label><br></td></tr>
+   
+		<tr><td>Name Of Hostel</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>	
+			<tr><td>Room Number</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>
+  </table></div>
+  <legend><center><b>Account Details</b></legend>
+		
+  <div class="div3">
+  <table>
+  <tr><td>Account Holder Name</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>
+			<tr><td>Account Number</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>
+			<tr><td>Bank Name</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>
+			<tr><td>Branch Name</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>
+			<tr><td>IFSC code</td>
+   <td><input class="inputClass"
+            name="input" > </td></tr>
+			</table></div>
+			 <legend align="center"><b>Terms And Conditions</b></legend>
+ <div class="div4">
+
+		<p><input type="checkbox"name=""value="">I certify that the above information provided by me is correct to best of my knowledge.<br>
+			<center><button type="submit" class="submit">Submit</button>
+	<button type="reset" class="Reset" >Reset</button></center>	</div></div>
+	</form>
 </body>
 </html>
