@@ -16,9 +16,9 @@ img:hover{
 transform:rotate(3400deg)
 }
 
-p{
+h2{
 	 border: 2px solid powderblue;
 	width:400px;
 	text-align:center;
-	font-size:16px;
+	
 border-right :2px solid orange;}
