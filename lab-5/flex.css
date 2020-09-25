@@ -13,7 +13,7 @@ img{
   transition-duration: 3s, 5s;
 }
 img:hover{
-transform:rotate(3400deg)
+transform:rotate(120deg)
 }
 
 h2{
